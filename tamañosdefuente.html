@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <title>CSS</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Css</h1>
+        <div class="navegacion">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Familias tipograficas</a></li>
+                    <li><a href="tamañosdefuente.html">Tamaños de fuente</a></li>
+                    <li><a href="propiedadesdefuente.html">Propiedades de fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Tamaños de fuente:</h2>
+        <div class="descripcion">
+            <p>El tamaño de fuente en CSS se puede especificar de varias maneras, cada una con sus propias
+                características:</p>
+        </div>
+        <section class="tipos">
+            <ol>
+                <div>
+                    <li>Px (píxeles):</li>
+                    <p>La unidad de medida más común y directa. Un píxel es la unidad más pequeña de una imagen o
+                        pantalla. El tamaño en
+                        píxeles proporciona un valor absoluto y no se ve afectado por el contexto circundante.</p>
+                    <img src="img/px.png" width="600px">
+                </div>
+                <div>
+                    <li>Em:</li>
+                    <p>El tamaño de la fuente se establece en relación con el tamaño de la fuente del elemento padre más
+                        cercano. Si no hay
+                        herencia, se refiere al tamaño de fuente del elemento actual. Un valor de 1em es igual al tamaño
+                        de fuente actual.</p>
+                    <img src="img/em.png" width="600px">
+                </div>
+                <div>
+                    <li>Rem:</li>
+                    <p>Similar a em, pero siempre se refiere al tamaño de la fuente del elemento raíz (<html>). Esto
+                        proporciona un control más
+                        consistente y predecible en comparación con em, que puede verse afectado por estilos heredados.
+                    </p>
+                    <img src="img/rem.png" width="600px">
+                </div>
+            </ol>
+        </section>
+    </main>
+</body>
+
+</html>
